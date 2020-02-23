@@ -1,0 +1,18 @@
+{
+  "name": "golang-gcloud-serverless",
+  "version": "1.0.0",
+  "description": "This is an example GCloud Function using Go and the Serverless framework",
+  "main": "hello.go",
+  "dependencies": {
+    "serverless-google-cloudfunctions": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "go test -v",
+    "build": "go build",
+    "deploy": "sls deploy -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
